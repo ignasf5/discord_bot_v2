@@ -1,0 +1,58 @@
+# ======================================================================================
+#                             CONFIGURATION
+# ======================================================================================
+# NOTE: TOKEN & SQL CLIENT DETAILS STORED AT .env
+
+# The prefix for the bots commands
+Prefix: "!"
+
+# SET BOT STATUS
+bot_status: "you | !help"
+
+# SET BOT ACTIVITY
+bot_activity: online
+
+# SET DB LOCATION
+db_path: "D:/FUN/sqlite/db_dev_v11.db"
+
+# First Registration
+game_count: "0"
+games_win: "0"
+games_tied: "0"
+games_lost: "0"
+bet_count: "0"
+bet_win: "0"
+bet_lost: "0"
+valorant_rank_points: "500"
+starting_rank: "d1"
+bet_points: "100"
+
+# Table Names
+admin_table: "admin"
+last_online_table: "last_online"
+user_table: "users"
+user_acc_table: "db_dev_v2"
+valorant_game_history_table: "valorant_game_history"
+
+# Valorant game points win
+points_w_60: "60"
+points_w_50: "50"
+points_w_40: "40"
+points_w_30: "30"
+points_w_25: "25"
+points_w_20: "20"
+points_w_15: "15"
+
+# Valorant game points lose
+points_l_22: "-22"
+points_l_19: "-19"
+points_l_17: "-17"
+points_l_15: "-15"
+points_l_13: "-13"
+points_l_10: "-10"
+
+# Valorant ELO counter
+radiant: "10000"
+high: "7500"
+mid: "5000"
+low: "2500"
